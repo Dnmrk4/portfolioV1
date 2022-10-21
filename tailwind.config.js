@@ -29,10 +29,14 @@ module.exports = {
         spacing: {
           '128': '32rem',
           '144': '36rem',
+          '11': '2.75rem',
         },
         borderRadius: {
           '4xl': '2rem',
-        }
+        },
+        gap: {
+          '11': '2.75rem',
+        },
       },
       screens: {
         xs: "480px",
@@ -43,6 +47,8 @@ module.exports = {
         xl: "1700px",
       },
     },
-    plugins: [],
+    plugins: [
+
+    ],
   }
 }
