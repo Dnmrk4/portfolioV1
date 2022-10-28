@@ -20,6 +20,7 @@ module.exports = {
         'hred': '#E34C26',
         'cblue': '#2965F1',
         'pyblue': '#306998',
+        'cblur': '#8F8D8D',
       },
       fontFamily: {
         sans: ['Graphik', 'sans-serif'],
