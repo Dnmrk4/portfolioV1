@@ -47,6 +47,13 @@ module.exports = {
         xl: "1700px",
       },
     },
+    variants: {
+      extend : {
+        display: ['group-focus'],
+        opacity: ['group-focus'],
+        inset: ['group-focus']
+      },
+    },
     plugins: [
 
     ],
