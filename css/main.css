@@ -611,8 +611,8 @@ video {
   position: relative;
 }
 
-.top-8{
-  top: 2rem;
+.top-24{
+  top: 6rem;
 }
 
 .-right-full{
@@ -621,6 +621,14 @@ video {
 
 .m-auto{
   margin: auto;
+}
+
+.m-1{
+  margin: 0.25rem;
+}
+
+.m-2{
+  margin: 0.5rem;
 }
 
 .mx-auto{
@@ -673,6 +681,10 @@ video {
   margin-top: 2rem;
 }
 
+.-mt-20{
+  margin-top: -5rem;
+}
+
 .block{
   display: block;
 }
@@ -709,8 +721,12 @@ video {
   height: 9rem;
 }
 
-.h-16{
-  height: 4rem;
+.h-80{
+  height: 20rem;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .max-h-60{
@@ -747,6 +763,10 @@ video {
 
 .w-16{
   width: 4rem;
+}
+
+.w-96{
+  width: 24rem;
 }
 
 .min-w-max{
@@ -858,6 +878,12 @@ video {
   margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
 }
 
+.space-y-8 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+}
+
 .overflow-auto{
   overflow: auto;
 }
@@ -928,6 +954,10 @@ video {
   --tw-bg-opacity: 0.95;
 }
 
+.p-4{
+  padding: 1rem;
+}
+
 .p-1{
   padding: 0.25rem;
 }
@@ -940,10 +970,6 @@ video {
   padding: 0.5rem;
 }
 
-.p-4{
-  padding: 1rem;
-}
-
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -954,20 +980,12 @@ video {
   padding-right: 1rem;
 }
 
-.pl-4{
-  padding-left: 1rem;
-}
-
-.pr-4{
-  padding-right: 1rem;
-}
-
-.pt-2{
-  padding-top: 0.5rem;
-}
-
 .pt-16{
   padding-top: 4rem;
+}
+
+.pl-4{
+  padding-left: 1rem;
 }
 
 .pt-0{
@@ -992,6 +1010,10 @@ video {
 
 .pb-3{
   padding-bottom: 0.75rem;
+}
+
+.pb-4{
+  padding-bottom: 1rem;
 }
 
 .text-center{
@@ -1179,14 +1201,30 @@ video {
     flex-direction: row;
   }
 
-  .md\:flex-col{
-    flex-direction: column;
+  .md\:items-start{
+    align-items: flex-start;
+  }
+
+  .md\:items-center{
+    align-items: center;
+  }
+
+  .md\:justify-center{
+    justify-content: center;
   }
 
   .md\:space-y-8 > :not([hidden]) ~ :not([hidden]){
     --tw-space-y-reverse: 0;
     margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:text-center{
+    text-align: center;
+  }
+
+  .md\:text-start{
+    text-align: start;
   }
 }
 
