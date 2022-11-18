@@ -30,9 +30,9 @@ In this pproject I mainly learning how to use tailwind and ended up create versi
 The site is currently half way, will finish soon.
 
 ## Demo
-Here is a working live demo: https://dnmrk4.github.io/portfolioV1/
+Here is a working live demo: https://dnmrk4.github.io/portfolioV1/ & https://danmarkmutai.netlify.com/
 
 
 #### Contact
-You can contact me through  my email: danmark.mutai@icloud.com.
+You can contact me through  my email: danmark.mutai@outlook.com.
 
